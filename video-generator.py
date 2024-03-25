@@ -28,7 +28,7 @@ def draw_stars(t):
 
 #
 
-news_url = 'https://newsapi.org/v2/top-headlines?apiKey=c29a123962034057aac547e7321be062&category=entertainment&country=gb'
+news_url = 'https://newsapi.org/v2/top-headlines?apiKey=API_KEY&category=entertainment&country=gb'
 r = requests.get(news_url)
 data = r.json()
 json_object = json.dumps(data)
